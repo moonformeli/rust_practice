@@ -3,7 +3,8 @@
 // use rand::Rng;
 // use std::cmp::Ordering;
 // use std::io;
-mod temperature;
+// mod temperature;
+mod fib;
 
 fn main() {
   // println!("Guess the number!");
@@ -37,5 +38,7 @@ fn main() {
   //     }
   //   }
   // }
-  temperature::run();
+
+  // temperature::run();
+  fib::run();
 }
